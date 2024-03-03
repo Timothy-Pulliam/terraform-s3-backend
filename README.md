@@ -2,7 +2,7 @@
 
 This Terraform script will create an [S3 backend](https://developer.hashicorp.com/terraform/language/settings/backends/s3) with file versioning enabled. Statefile locking will be handled in a DynamoDB table.
 
-![](/backend.png)
+![](/tfstate.png)
 
 # Create backend
 
