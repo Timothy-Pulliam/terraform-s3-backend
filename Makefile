@@ -27,3 +27,6 @@ scan: json
 
 destroy:
 	terraform destroy -force
+
+graph:
+	terraform graph | dot -Tpng > tfstate.png
