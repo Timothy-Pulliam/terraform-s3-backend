@@ -53,5 +53,6 @@ resource "aws_dynamodb_table" "terraform_locks" {
 }
 
 output "bucket_name" {
-  value = aws_s3_bucket.terraform_state.bucket
+  description = "Name of created S3 bucket"
+  value       = aws_s3_bucket.terraform_state.bucket
 }
